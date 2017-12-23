@@ -1,13 +1,6 @@
 // Imports the Google Cloud client library
 const Translate = require('@google-cloud/translate');
-const google = require('googleapis');
 
-google.auth.getApplicationDefault(function(err, authClient) {
-    if (err) {
-      return cb(err);
-    }
-});
-	
 // Your Google Cloud Platform project ID
 const projectId = 'translate-testing-189900';
 
