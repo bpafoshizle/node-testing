@@ -7,7 +7,13 @@ const projectId = 'translate-testing-189900';
 // Instantiates a client
 const translate = new Translate({
   projectId: projectId,
+  keyFileName: "./credentials/translate-testing-8acb2fbd806e.json"
 });
+
+
+//const storage = Storage({
+//    keyFilename: '../../credentials/translate-testing-8acb2fbd806e.json'
+//  });
 
 // The text to translate
 const text = 'Hello, world!';
