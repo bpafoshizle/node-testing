@@ -9,11 +9,6 @@ const translate = new Translate({
   projectId: projectId
 });
 
-
-//const storage = Storage({
-//    keyFilename: '../../credentials/translate-testing-8acb2fbd806e.json'
-//  });
-
 // The text to translate
 const text = 'Hello, world!';
 // The target language
