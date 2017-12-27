@@ -9,9 +9,9 @@ const Storage = require('@google-cloud/storage');
 // Instantiates a client. Explicitly use service account credentials by
 // specifying the private key file. All clients in google-cloud-node have this
 // helper, see https://googlecloudplatform.github.io/google-cloud-node/#/docs/google-cloud/latest/guides/authentication
-//const storage = Storage({
-//    keyFilename: '../../credentials/translate-testing-8acb2fbd806e.json'
-//  });
+const storage = Storage({
+   keyFilename: '../../credentials/translate-testing-8acb2fbd806e.json'
+ });
 
 // Makes an authenticated API request.
 storage

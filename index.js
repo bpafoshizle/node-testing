@@ -7,7 +7,7 @@ const projectId = 'translate-testing-189900';
 // Instantiates a client
 const translate = new Translate({
   projectId: projectId,
-  keyFileName: "./credentials/translate-testing-8acb2fbd806e.json"
+  keyFileName: "credentials/translate-testing-8acb2fbd806e.json"
 });
 
 
